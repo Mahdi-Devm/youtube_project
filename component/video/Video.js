@@ -50,7 +50,6 @@ template.innerHTML = `
                     </div>
                 </div> 
 `
-console.log('ali');
 
 class video extends HTMLElement {
     constructor() {
