@@ -1,0 +1,226 @@
+body{
+    background-color: #0F0F0F !important;
+}
+
+.hrader {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    height: 56px; 
+    background-color: #0F0F0F;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50; /* برای اطمینان از اینکه هدر همیشه بالای محتوا قرار دارد */
+}
+
+.search-input {
+    color: white !important;
+    background-color: transparent; 
+    border: 1px solid #3f3f3f!important; 
+    border-radius: 0.25rem; 
+    box-shadow: none;
+    background-color: black !important ;
+
+}
+.search-input::placeholder {
+    color: #a1a1a1 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input-group-text {
+    background-color: #313131 !important;
+    border: none; 
+    border: 1px solid #3f3f3f!important; 
+    padding: 10px !important;
+}
+
+.img-container{
+    margin-left: 10px;
+}
+
+
+.img-container img {
+    max-height: 50px;
+    width: 120px;
+}
+.header-container {
+    height: 56px; 
+    
+    display: flex; 
+    align-items: center; 
+    padding: 0 16px; 
+}
+.header-container img{
+    cursor: pointer;
+}
+.create-button {
+    color: white;
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+.notification-icon {
+    color: white; 
+    width: 20px;
+    height: 20px;
+    margin-right: 16px; 
+    cursor: pointer; 
+}
+
+.profile-image img {
+    width: 32px; 
+    height: 32px; 
+    border-radius: 50%; 
+
+}
+
+.footer-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:  #212121;
+    color: white !important;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: 60px;
+}
+
+.iconnacbar {
+   width: 40px;
+    padding: 1px;
+}
+.iconnacbar:hover {
+    background: #3f3f3f;
+    border-radius: 15px;
+}
+
+
+.createbtn{
+    background-color: #313131 !important;
+}
+.saidbar {
+    background-color: #0F0F0F !important;  /* رنگ پس‌زمینه عادی */
+    color: #ffffff; /* رنگ متن */
+    padding: 10px;
+    height: 100%; 
+    min-height: 200px;
+    overflow: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5%;
+}
+
+.div {
+    padding: 10px;
+    transition: background-color 0.3s ease; /* انیمیشن ملایم */
+border-radius: 8px;
+}
+
+.div:hover {
+    background-color: #222222; /* رنگ پس‌زمینه در حالت هاور */
+    cursor: pointer; /* نشانگر موس */
+}
+
+hr {
+    border: 1px solid #444444; /* رنگ خط افقی */
+    margin: 10px 0;
+}
+
+.svg{
+    color: white;
+}
+.iconshort{
+    width: 100px;
+}
+.sortcontiner{
+    width: 220px;
+}
+.texttitle{
+    white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            
+}
+.imgshorts{
+    border-radius: 4px;
+    width: 100px;
+    height:  100px;
+}
+
+.li-search {
+    width: 100%; /* تغییر به 100% برای مناسب بودن در موبایل */
+    max-width: 700px; /* حداکثر طول */
+    height: auto; /* ارتفاع خودکار */
+    background-color: #212121;
+    margin: 60px auto; /* مرکز کردن */
+    border-radius: 15px;
+    display: none;
+    color: white;
+    padding: 10px;
+    z-index: 100;
+    position: absolute; /* تغییر به absolute */
+}
+.li-list-input {
+    padding: 10px; /* فاصله داخلی لیست */
+}
+
+
+.li-list-input{
+    color: white;
+    list-style-type: none; /
+}
+
+@media (max-width: 576px) {
+    .input-group {
+        width: 100px;
+    }
+}   
+.btn-group {
+    position: relative;
+}
+
+.btn {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.dropdown-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.dropdown-menu .d-flex {
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition:  0.2s ease;
+}
+
+.dropdown-menu .d-flex:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* تغییر رنگ پس‌زمینه در هاور */
+}
+
+.dropdown-menu hr {
+    border-color: #e0e0e0; /* رنگ خط افقی */
+
+}
+
+
+    
