@@ -4,25 +4,25 @@ template.innerHTML = `
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <style>
-      .svg{
-        color: white !important;
-         width: 25px;
-      }
-         .con-bet{
-          justify-content: space-between;
-         }
-          @media (max-width: 768px) {
-    .video-site {
+.svg{
+    color: white !important;
+    width: 25px;
+}
+.con-bet{
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .video-site {
       width: 100%;
     }
   }
-    .divcontainer {
-    width: 370px; /* عرض در حالت دسکتاپ */
+.divcontainer {
+    width: 370px; 
 }
 
 @media (max-width: 768px) {
     .divcontainer {
-        width: 100%; /* عرض در حالت موبایل */
+        width: 100%; 
     }
 }
 

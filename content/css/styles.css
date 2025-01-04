@@ -1,7 +1,6 @@
 body{
     background-color: #0F0F0F !important;
 }
-
 .hrader {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     height: 56px; 
@@ -11,7 +10,6 @@ body{
     top: 0;
     z-index: 50; /* برای اطمینان از اینکه هدر همیشه بالای محتوا قرار دارد */
 }
-
 .search-input {
     color: white !important;
     background-color: transparent; 
@@ -26,19 +24,15 @@ body{
     font-weight: 500;
     font-size: 16px;
 }
-
 .input-group-text {
     background-color: #313131 !important;
     border: none; 
     border: 1px solid #3f3f3f!important; 
     padding: 10px !important;
 }
-
 .img-container{
     margin-left: 10px;
 }
-
-
 .img-container img {
     max-height: 50px;
     width: 120px;
@@ -58,7 +52,6 @@ body{
     font-weight: bold; 
     cursor: pointer; 
 }
-
 .notification-icon {
     color: white; 
     width: 20px;
@@ -66,14 +59,12 @@ body{
     margin-right: 16px; 
     cursor: pointer; 
 }
-
 .profile-image img {
     width: 32px; 
     height: 32px; 
     border-radius: 50%; 
 
 }
-
 .footer-menu {
     position: fixed;
     bottom: 0;
@@ -85,7 +76,6 @@ body{
     width: 90%;
     height: 60px;
 }
-
 .iconnacbar {
    width: 40px;
     padding: 1px;
@@ -94,8 +84,6 @@ body{
     background: #3f3f3f;
     border-radius: 15px;
 }
-
-
 .createbtn{
     background-color: #313131 !important;
 }
@@ -110,23 +98,19 @@ body{
     position: sticky;
     top: 5%;
 }
-
 .div {
     padding: 10px;
     transition: background-color 0.3s ease; /* انیمیشن ملایم */
 border-radius: 8px;
 }
-
 .div:hover {
     background-color: #222222; /* رنگ پس‌زمینه در حالت هاور */
     cursor: pointer; /* نشانگر موس */
 }
-
 hr {
     border: 1px solid #444444; /* رنگ خط افقی */
     margin: 10px 0;
 }
-
 .svg{
     color: white;
 }
@@ -147,7 +131,6 @@ hr {
     width: 100px;
     height:  100px;
 }
-
 .li-search {
     width: 100%; /* تغییر به 100% برای مناسب بودن در موبایل */
     max-width: 700px; /* حداکثر طول */
@@ -164,13 +147,10 @@ hr {
 .li-list-input {
     padding: 10px; /* فاصله داخلی لیست */
 }
-
-
 .li-list-input{
     color: white;
     list-style-type: none; /
 }
-
 @media (max-width: 576px) {
     .input-group {
         width: 100px;
@@ -179,16 +159,13 @@ hr {
 .btn-group {
     position: relative;
 }
-
 .btn {
     cursor: pointer;
     transition: transform 0.2s ease;
 }
-
 .btn:hover {
     transform: scale(1.05);
 }
-
 .dropdown-menu {
     background-color: #fff;
     border-radius: 8px;
@@ -199,26 +176,22 @@ hr {
     transform: translateY(-10px);
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
-
 .dropdown-menu.show {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
-
 .dropdown-menu .d-flex {
     align-items: center;
     padding: 10px;
     border-radius: 5px;
     transition:  0.2s ease;
 }
-
 .dropdown-menu .d-flex:hover {
-    background-color: rgba(0, 123, 255, 0.1); /* تغییر رنگ پس‌زمینه در هاور */
+    background-color: rgba(0, 123, 255, 0.1); 
 }
-
 .dropdown-menu hr {
-    border-color: #e0e0e0; /* رنگ خط افقی */
+    border-color: #e0e0e0; 
 
 }
 
