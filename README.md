@@ -8,7 +8,7 @@ Hello! 👋 Welcome to my YouTube project. This project is designed as a home pa
 - **Beautiful and user-friendly appearance**: Modern and attractive design that provides a better user experience.
 
 🚀 Get started.
--Demo site => [DEMO]([https://raw.githack.com/Mahdi-Devm/youtube_project/main/index.html](https://raw.githack.com/Mahdi-Devm/youtube_project/main/index.html))
+-Demo site => [DEMO](https://raw.githack.com/Mahdi-Devm/youtube_project/main/index.html)
 
 -To use the project, simply follow the steps below:
 1. Cloning the repository 
