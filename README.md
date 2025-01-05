@@ -7,12 +7,11 @@ Hello! 👋 Welcome to my YouTube project. This project is designed as a home pa
 - Separate components: Video elements and shorts are designed as components, which means you can easily use them in other projects or combine them.
 - **Beautiful and user-friendly appearance**: Modern and attractive design that provides a better user experience.
 
-🚀 Get started
+🚀 Get started.
+-Demo site => [DEMO](https://raw.githack.com/Mahdi-Devm/youtube_project/main/index.html)
 
-To use the project, simply follow the steps below:
-
-1. Cloning the repository
-   
+-To use the project, simply follow the steps below:
+1. Cloning the repository 
 2. Entering the project folder:
       cd youtube project
 3. Open the index.html file in the browser:
