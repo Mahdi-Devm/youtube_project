@@ -13,6 +13,12 @@ template.innerHTML = `
   border-radius: 4px;
   width: 100%;
 }
+  @media (max-width: 768px) {
+  .imgshorts {
+        width: 93%; 
+        
+    }
+}
 .sortcontiner{
   width: 220px; 
 }

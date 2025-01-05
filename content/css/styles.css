@@ -8,8 +8,16 @@ body{
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 50; /* برای اطمینان از اینکه هدر همیشه بالای محتوا قرار دارد */
+    z-index: 50; 
 }
+
+@media (max-width: 600px) { 
+    .hrader {
+        width: 100%; 
+        
+    }
+}
+
 .search-input {
     color: white !important;
     background-color: transparent; 
@@ -68,12 +76,10 @@ body{
 .footer-menu {
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
     background-color:  #212121;
     color: white !important;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 100%;
     height: 60px;
 }
 .iconnacbar {
@@ -88,8 +94,8 @@ body{
     background-color: #313131 !important;
 }
 .saidbar {
-    background-color: #0F0F0F !important;  /* رنگ پس‌زمینه عادی */
-    color: #ffffff; /* رنگ متن */
+    background-color: #0F0F0F !important;  
+    color: #ffffff;
     padding: 10px;
     height: 100%; 
     min-height: 200px;
@@ -100,15 +106,15 @@ body{
 }
 .div {
     padding: 10px;
-    transition: background-color 0.3s ease; /* انیمیشن ملایم */
+    transition: background-color 0.3s ease; 
 border-radius: 8px;
 }
 .div:hover {
-    background-color: #222222; /* رنگ پس‌زمینه در حالت هاور */
-    cursor: pointer; /* نشانگر موس */
+    background-color: #222222; 
+    cursor: pointer; 
 }
 hr {
-    border: 1px solid #444444; /* رنگ خط افقی */
+    border: 1px solid #444444;
     margin: 10px 0;
 }
 .svg{
@@ -132,20 +138,29 @@ hr {
     height:  100px;
 }
 .li-search {
-    width: 100%; /* تغییر به 100% برای مناسب بودن در موبایل */
-    max-width: 700px; /* حداکثر طول */
-    height: auto; /* ارتفاع خودکار */
+    width: 100%; 
+    max-width: 700px; 
+    height: auto; 
     background-color: #212121;
-    margin: 60px auto; /* مرکز کردن */
+    margin: 60px auto; 
     border-radius: 15px;
     display: none;
     color: white;
     padding: 10px;
     z-index: 100;
-    position: absolute; /* تغییر به absolute */
+    position: absolute; 
+}
+
+
+@media (max-width: 600px) {
+    .li-search {
+        max-width: 90%; 
+        padding: 15px; 
+       
+    }
 }
 .li-list-input {
-    padding: 10px; /* فاصله داخلی لیست */
+    padding: 10px; 
 }
 .li-list-input{
     color: white;
